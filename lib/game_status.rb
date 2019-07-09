@@ -29,3 +29,16 @@ def full?(board)
     spot == "X" || spot == "O"
   end
 end
+
+def draw?(board)
+  full?(board) && !won?(board)
+end
+
+
+
+
+
+
+
+
+
