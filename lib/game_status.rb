@@ -14,15 +14,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(board)
-  WIN_COMBINATIONS.select do |combo|
-    if board == combo
-      return combo 
-    else 
-      return false 
-    end
-  end
-end
+
 
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
